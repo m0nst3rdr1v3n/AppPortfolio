@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/timsNanodegree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="#b5e3fc"
+            android:fontFamily="sans_serif"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:padding="6dp"
+            android:text="Nanodegree Project"
+            android:textColor="#006064"
+            android:textSize="30dp" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="74dp"
+            android:layout_marginRight="74dp"
+            android:onClick="spotifyStreamer"
+            android:text="Spotify Streamer"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="74dp"
+            android:layout_marginRight="74dp"
+            android:onClick="scoresApp"
+            android:text="Scores APP"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="74dp"
+            android:layout_marginRight="74dp"
+            android:onClick="libraryApp"
+            android:text="Library APP" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="74dp"
+            android:layout_marginRight="74dp"
+            android:onClick="buildItBigger"
+            android:text="Build It Bigger" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="74dp"
+            android:layout_marginRight="74dp"
+            android:onClick="xyzReader"
+            android:text="XYZ Reader" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="74dp"
+            android:layout_marginRight="74dp"
+            android:onClick="capstone"
+            android:text="Capstone" />
+
+    </LinearLayout>
+
+</RelativeLayout>
